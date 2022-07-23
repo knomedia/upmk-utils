@@ -1,5 +1,5 @@
-const loadSettings = require('./settings/load')
-const loadSecrets = require('./secrets/load')
+const loadSettings = require('./src/settings/load')
+const loadSecrets = require('./src/secrets/load')
 
 module.exports = {
   settings: {load: loadSettings},
